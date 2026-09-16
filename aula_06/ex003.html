@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightblue;
+            /* Comentário CSS */
+            color: white;
+            font-size: 20pt;
+            font-family: Arial;
+        }
+
+        /* comwn */
+
+        h1 {
+            color: lightyellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Olá, mundo!</h1> <!-- Comentário HTML -->
+    <p>Me livrei da maldição!</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt("Digite um valor numérico: ")) //recebe valores em string, a menos que use o Number.parseInt ou Number.parseFoat
+        var n2 = Number.parseInt(window.prompt("Digite outro valor numérico: "))
+        var soma = n1 + n2
+        window.alert("A soma dos dois valores numéricos é: " + soma)
+        window.alert(`A soma entre ${n1} e ${n2} é ${soma}`)
+        // (number + number) -> para adição
+        // (string + string) -> para concatenação
+    </script>
+</body>
+
+</html>
